@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    font-family: 'Crimson Text', serif;
+    color: #9cb4c8;
+    background-color: #FFFFFF;
+    margin: 0px;
+    font-weight: 900;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.clearfix {
+    overflow: auto;
+}
+#website-logo {
+    text-align: center;
+}
+.page-wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: #FFFFFF;
+}
+#website-cart {
+    text-align: right;
+    padding-left: 0px;
+    padding-right: 17px;
+}
+.page-header {
+    background-color: #000000;
+
+}
+.main {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.page-footer {
+    background-color: #000000;
+}
+nav ul{
+	text-align: center;
+	list-style-type: none;
+	padding-left: 0px;
+}
+nav a{
+    color: #FFFFFF;
+    text-decoration: none;
+	background-color: #000000;
+	display: block;
+	margin-bottom: 4px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-family: "bad-script";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.3em;
+}
+.main {
+}
+nav a:hover{
+	background-color: #3E678B;
+}
+@media screen and (min-width:760px){
+	nav a{
+		width: 20%;
+		float: left;
+		
+	}
+}
+.main h1{
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #000000;
+    width: auto;
+    height: auto;
+    padding-top: 0px;
+
+}
+.page-wrapper {
+    padding-top: 35px;
+}
+
+.main p{
+    color: #000000;
+    font-size: x-large;
+    font-style: normal;
+    font-family:  Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+    font-weight: 100;
+}
+ul{
+    margin-top: -17px;
+}
+.page-footer h2 {
+    background-color: #000000;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+	font-style: italic;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-bottom: 5px;
+}
+#socialmedia{
+ 	text-align: center;	
+}
+#socialmedia{
+    text-align: center;
+    padding-bottom: 5px;
+    padding-left: 0px;
+}
+#footer-checkout {
+    text-align: center;
+    margin-bottom: -23px;
+    padding-top: 10px;
+	padding-bottom: 6px;
+}

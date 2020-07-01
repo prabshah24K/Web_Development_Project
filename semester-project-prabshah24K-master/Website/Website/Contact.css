@@ -1,0 +1,151 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    font-family: 'Crimson Text', serif;
+    color: #9cb4c8;
+    background-color: #FFFFFF;
+    margin: 0px;
+    font-weight: 900;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.clearfix {
+    overflow: auto;
+}
+#website-logo {
+    text-align: center;
+}
+.page-wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: #FFFFFF;
+}
+#website-cart {
+    text-align: right;
+    padding-left: 0px;
+    padding-right: 17px;
+}
+.page-header {
+    background-color: #000000;
+
+}
+.page-footer {
+    background-color: #000000;
+}
+nav ul{
+	text-align: center;
+	list-style-type: none;
+	padding-left: 0px;
+}
+nav a{
+    color: #FFFFFF;
+    text-decoration: none;
+	background-color: #000000;
+	display: block;
+	margin-bottom: 4px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-family: "bad-script";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.3em;
+}
+nav a:hover{
+	background-color: #3E678B;
+}
+.page-footer h2 {
+    background-color: #000000;
+    color: #FFFFFF;
+    text-align: center;
+	font-style: italic;
+}
+@media screen and (min-width:760px){
+	nav a{
+		width: 20%;
+		float: left;
+		
+	}
+}
+#socialmedia{
+    text-align: center;	
+}
+ul{
+    margin-top: -17px;
+}
+.page-footer h2{
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-bottom: 5px;
+}
+#socialmedia{
+    text-align: center;
+    padding-bottom: 5px;
+    padding-left: 0px;
+}
+#footer-checkout {
+    text-align: center;
+    margin-bottom: -23px;
+    padding-top: 10px;
+	padding-bottom: 6px;
+}
+.main h1{
+    color: #000000;	
+}
+.main p{
+    color: #000000;
+    font-weight: 500;
+    font-size: large;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+form {
+	width: 750px;
+}
+input {
+	width: 100%;
+}
+textarea{
+	resize: vertical;
+	height: 300px;
+	max-height: 310px;
+	width: 748px;
+	min-height: 20px;
+}
+#button {
+    width: 10%;
+    float: none;
+    padding-top: 0px;
+    text-align: center;
+    clear: none;
+    padding-bottom: 0px;
+    margin-bottom: 12px;
+    margin-top: 3px;
+    background-color: #B0882C;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: large;
+}
+#button:hover {
+
+background-color: #888888;
+
+}
+.main {
+    margin-top: 20px;
+    margin-bottom: 5px;
+
+}
+
+#name{
+    margin-bottom: 20px;
+}
+#email {
+    margin-bottom: 20px;
+}
